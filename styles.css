@@ -10,8 +10,6 @@
 }
 
 .container .grid-item {
-    flex: 1 0 6.25%;
+    flex: 1 0 1%;
     aspect-ratio: 1 / 1;
-    padding: 10px;
-    border: 1px solid #000;
 }
