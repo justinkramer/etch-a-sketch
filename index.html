@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Etch-a-Sketch</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
-</head>
-<body>
-    <div class="container" id="grid"></div>
-    <div class="container" id="controls">
-        <button id="clear">Clear</button>
-        <button id="resize">Resize</button>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Etch-a-Sketch</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js" defer></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="controls">
+                <div class="container" id="controls">
+                    <button id="clear">Clear</button>
+                    <button id="resize">Resize</button>
+                    <button class="color-change" id="eraser">Eraser</button>
+                    <button class="color-change" id="rainbow">Taste the Rainbow!</button>
+                    <input type="color" id="color-picker" name="color" class="color-change color-change-active" value="#000000">
+                </div>
+                <div id="canvas">
+                    <h1>The Etch-a-Sketch</h1>
+                    <div class="container" id="grid"></div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
 </html>
